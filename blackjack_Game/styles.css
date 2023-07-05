@@ -1,0 +1,68 @@
+
+
+
+
+h1
+{
+    color: goldenrod;
+}
+h1 
+{
+    font-size: 120px;
+    font-family:'Times New Roman', Times, serif
+}
+  
+p 
+{
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: Verdana, sans-serif;
+}
+#message-el
+{
+    font-style: italic;
+}
+body
+{
+    background-image: url(https://img.freepik.com/premium-vector/poker-table-background-green-color_47243-1833.jpg);
+    background-size: cover; /* Adjust the background size as needed */
+}
+/*
+https://t3.ftcdn.net/jpg/03/33/98/58/360_F_333985870_3LjrtHQCcgo9t7xcNrbUI1vUOQt0DuQ6.jpg
+*/
+
+.center-align 
+{
+    text-align: center;
+}
+
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+*/
+.button-container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+button
+{
+    font-size: large;
+    font-weight: bold;
+    width: 550px;
+    height: 50px;
+    color:#016f32;
+    background-color: goldenrod;
+    border: none; /* Remove the border */
+    border-radius: 10px;
+    box-shadow: none;
+    margin-bottom: 10px; 
+}
+button:active
+{
+    background-color: darkgoldenrod;
+}
